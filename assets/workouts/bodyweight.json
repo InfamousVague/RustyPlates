@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Push-Ups",
+        "kind": { "RepititionSets": [3, 3, 3] },
+        "muscle_groups": ["Chest"],
+        "weight": 0,
+        "equipment": ["Bodyweight"]
+    },
+    {
+        "name": "Pull-Ups",
+        "kind": { "RepititionSets": [5, 4, 3, 4, 5] },
+        "muscle_groups": ["Back"],
+        "weight": 0,
+        "equipment": ["Bodyweight"]
+    },
+    {
+        "name": "Squats",
+        "kind": { "RepititionSets": [3, 3, 3] },
+        "muscle_groups": ["Legs"],
+        "weight": 0,
+        "equipment": ["Bodyweight"]
+    },
+    {
+        "name": "Lunges",
+        "kind": { "RepititionSets": [3, 3, 3] },
+        "muscle_groups": ["Legs"],
+        "weight": 0,
+        "equipment": ["Bodyweight"]
+    },
+    {
+        "name": "Plank",
+        "kind":  {
+            "Duration": [{
+                "secs": 60,
+                "nanos": 0
+            }]
+        },
+        "muscle_groups": ["Core"],
+        "muscles": ["Abs"],
+        "weight": 0,
+        "equipment": ["Bodyweight"]
+    },
+    {
+        "name": "Jumping Jacks",
+        "kind": { "RepititionSets": [5, 5, 5] },
+        "muscle_groups": ["FullBody"],
+        "weight": 0,
+        "equipment": ["Bodyweight"]
+    }
+]

@@ -1,0 +1,41 @@
+{
+    "monday": [
+        {
+            "name": "Pull-Ups",
+            "kind": { "RepititionSets": [5, 4, 3, 4, 5] },
+            "muscle_groups": ["Back"],
+            "weight": 0,
+            "equipment": ["Bodyweight"]
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Plank",
+            "kind":  {
+                "Duration": [{
+                    "secs": 60,
+                    "nanos": 0
+                }]
+            },
+            "muscle_groups": ["Core"],
+            "muscles": ["Abs"],
+            "weight": 0,
+            "equipment": ["Bodyweight"]
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "Rest Day",
+            "kind": "Rest",
+            "sets": [],
+            "muscle_groups": [],
+            "muscles": [],
+            "weight": 0,
+            "equipment": []
+        }
+    ],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+}
