@@ -1,7 +1,12 @@
-use rustyplates_lib::{Human, Profile};
+use rustyplates_lib::{human::Human, Profile};
+
 
 pub enum APIError {
     CreateProfile(String)
+}
+
+pub fn list_profiles() -> Vec<Profile> {
+    vec![] // TODO
 }
 
 pub fn create_profile(human: Human) -> Result<Profile, APIError> {
@@ -11,8 +16,4 @@ pub fn create_profile(human: Human) -> Result<Profile, APIError> {
         name: human.name().first().to_string(),
         human
     })
-}
-
-pub fn list_profiles() -> Vec<Profile> {
-    vec![] // TODO
 }
