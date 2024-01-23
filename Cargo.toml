@@ -1,0 +1,5 @@
+[workspace]
+
+members = [
+    "rustyplates", "rustyplates-api", "rustyplates-lib"
+]
